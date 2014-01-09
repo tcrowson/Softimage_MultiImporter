@@ -43,7 +43,6 @@ class MultiImporterDialog( QDialog ):
         
     def setConnections(self):
         self.ui.fileBrowse_Btn.released.connect(self.launchFileBrowser)
-        #self.ui.directoryPath.returnPressed.connect(self.scanDirectory)
         self.ui.directoryPath.editingFinished.connect(self.scanDirectory)
         self.ui.import_Btn.released.connect(self.importFiles)
         self.ui.lwoScaleFactorSlider.valueChanged.connect(self.setLWOScaleField)
