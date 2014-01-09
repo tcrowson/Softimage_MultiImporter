@@ -149,7 +149,7 @@ def XSILoadPlugin( in_reg ):
     in_reg.Author = 'Tim Crowson'
     in_reg.Email = 'tcrowson@gmail.com'
     in_reg.Major = 1
-    in_reg.Minor = 14
+    in_reg.Minor = 15
     in_reg.RegisterCommand('MultiImporter_Qt')
     in_reg.RegisterMenu(constants.siMenuMainFileImportID,"MultiImporter_Qt_Menu",False,False)
 
